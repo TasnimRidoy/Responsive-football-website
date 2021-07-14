@@ -15,7 +15,7 @@ section{
     background-color:darkblue;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
     color: whitesmoke ;
     padding: 20px;
 }
@@ -33,7 +33,26 @@ h1{
 }
 /* players */
 
-.hh img{
+.players{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.player-title img{
     width: 224px;
     height: 104px;
+}
+/* highlight */
+.copa img{
+    padding: 20px;
+    width: 60%;
+    height: 60%;
+}
+h2{
+    padding: 20px;
+}
+.link-button{
+ padding: 20px;
 }
