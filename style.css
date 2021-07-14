@@ -30,6 +30,7 @@ h1{
     height: 60%;
 }
 /* players */
+
 .bangladesh{
     width: 50%;
     margin-left: 20%;
@@ -88,7 +89,30 @@ h2{
     font-size: 200%;
     color: indigo;
 }
-.oo img{
-    width: 110px;
-    height: 100px;
+/* media queries 
+---------------*/
+
+
+/* mobile device
+-------------- */
+@media only screen and (max-width:688px){
+   .amr{
+    width: 100%;
+   }
+   .blog{
+       display: none;
+   }
+   .bangladesh{
+       background-color: lightcoral;
+       grid-template-columns: repeat(1, 1fr);
+       width: 80%;
+   }
+   .bangladesh2{
+       grid-template-columns: repeat(1, 1fr);
+       width: 80%;
+   }
+   .bangladesh3{
+       grid-template-columns: repeat(1, 1fr);
+       width: 80%;
+   }
 }
